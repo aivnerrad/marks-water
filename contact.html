@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Mark's Water</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo"
+          ><img src="marks-water-banner-nobg.png" alt="Mark's Water Logo"
+        /></a>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="page-section">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+          <p><strong>Phone:</strong> (304) 267-0685</p>
+          <p><strong>Email:</strong> Markswaterhaulingllc@gmail.com</p>
+          <p><strong>Location:</strong> Archer Road, Kearneysville, WV</p>
+          <div class="social-contact">
+            <h2>Connect With Us</h2>
+            <a
+              href="https://www.facebook.com/MarksWaterDelivery/"
+              target="_blank"
+              class="facebook-link"
+              >Message us on Facebook</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Phone: (304) 267-0685</p>
+          <p>Email: Markswaterhaulingllc@gmail.com</p>
+          <p>Location: Archer Road, Kearneysville, WV</p>
+        </div>
+        <div class="footer-section">
+          <h4>Hours</h4>
+          <p>Mon-Fri: 8am - 6pm</p>
+          <p>Sat: 9am - 4pm</p>
+          <p class="rating">⭐ 100% recommend (7 Reviews)</p>
+        </div>
+        <div class="footer-section">
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/MarksWaterDelivery/"
+              target="_blank"
+              >Follow us on Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>2025 Mark's Water Delivery LLC</p>
+      </div>
+    </footer>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

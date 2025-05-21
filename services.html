@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Mark's Water</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo"
+          ><img src="marks-water-banner-nobg.png" alt="Mark's Water Logo"
+        /></a>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="page-section">
+        <h1 class="services-title">Our Services</h1>
+        <img
+          src="marks-water-logo-original.png"
+          alt="Mark's Water Delivery Logo"
+          class="services-logo"
+        />
+        <div class="service-list">
+          <div class="service-item">
+            <img
+              src="marks-water-pool-two.jpg"
+              alt="Pool Filling"
+              class="service-img"
+            />
+            <h2>Pool Filling</h2>
+            <p>Fast, clean water delivery for swimming pools of any size.</p>
+          </div>
+          <div class="service-item">
+            <img
+              src="marks-water-pond.jpg"
+              alt="Pond Filling"
+              class="service-img"
+            />
+            <h2>Pond Filling</h2>
+            <p>Bulk water for ponds, landscaping, and water features.</p>
+          </div>
+          <div class="service-item">
+            <img
+              src="marks-water-truck-filling.jpg"
+              alt="Large Container Filling"
+              class="service-img"
+            />
+            <h2>Large Container Filling</h2>
+            <p>
+              Water delivery for tanks, cisterns, construction, agriculture, and
+              more.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h4>Contact Us</h4>
+          <p>Phone: (304) 267-0685</p>
+          <p>Email: Markswaterhaulingllc@gmail.com</p>
+          <p>Location: Archer Road, Kearneysville, WV</p>
+        </div>
+        <div class="footer-section">
+          <h4>Hours</h4>
+          <p>Mon-Fri: 8am - 6pm</p>
+          <p>Sat: 9am - 4pm</p>
+          <p class="rating">⭐ 100% recommend (7 Reviews)</p>
+        </div>
+        <div class="footer-section">
+          <div class="social-links">
+            <a
+              href="https://www.facebook.com/MarksWaterDelivery/"
+              target="_blank"
+              >Follow us on Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>2025 Mark's Water Delivery LLC</p>
+      </div>
+    </footer>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", () => {
+        menuToggle.classList.toggle("active");
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
